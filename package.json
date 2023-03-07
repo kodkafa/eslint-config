@@ -9,7 +9,7 @@
   "exports": {
     ".": "./dist/index.js",
     "./react": "./dist/react.js",
-    "./prettier-config": "./dist/config/prettier.js"
+    "./prettier-config": "./dist/prettier-config.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
