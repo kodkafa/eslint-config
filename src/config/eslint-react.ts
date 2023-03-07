@@ -2,7 +2,7 @@ import type { Linter } from "eslint";
 
 export const config: Partial<Linter.Config> = {
   env: {
-    browser: false,
+    browser: true,
     node: true,
     jest: true,
     es2021: true,
@@ -17,10 +17,11 @@ export const config: Partial<Linter.Config> = {
   },
   extends: [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
   ],
-  plugins: ["import", "@typescript-eslint", "prettier"],
+  plugins: ["react", "react-hooks", "import", "@typescript-eslint", "prettier"],
   rules: {
     "@typescript-eslint/no-shadow": "warn",
     indent: ["error", 2],
@@ -35,7 +36,13 @@ export const config: Partial<Linter.Config> = {
     "import/prefer-default-export": 0,
     "no-use-before-define": 0,
     "global-require": 0,
+    "react/react-in-jsx-scope": 0,
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 };
 
 export default config;
