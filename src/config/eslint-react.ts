@@ -19,12 +19,11 @@ export const config: Partial<Linter.Config> = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
+    "plugin:prettier/recommended"
   ],
   plugins: ["react", "react-hooks", "import", "@typescript-eslint", "prettier"],
   rules: {
     "@typescript-eslint/no-shadow": "warn",
-    indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "single"],
     semi: ["error", "always"],

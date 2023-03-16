@@ -18,12 +18,11 @@ export const config: Partial<Linter.Config> = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
+    "plugin:prettier/recommended"
   ],
   plugins: ["import", "@typescript-eslint", "prettier"],
   rules: {
     "@typescript-eslint/no-shadow": "warn",
-    indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "single"],
     semi: ["error", "always"],
