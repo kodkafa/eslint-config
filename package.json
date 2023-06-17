@@ -1,6 +1,6 @@
 {
   "name": "@kodkafa/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shareable ESLint and Prettier configuration used by KODKAFA",
   "license": "ISC",
   "files": [
