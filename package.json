@@ -9,6 +9,7 @@
   "exports": {
     ".": "./dist/index.js",
     "./react": "./dist/react.js",
+    "./next": "./dist/next.js",
     "./prettier-config": "./dist/prettier-config.js"
   },
   "main": "./dist/index.js",
