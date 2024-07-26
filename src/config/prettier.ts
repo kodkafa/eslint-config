@@ -2,7 +2,7 @@ import type { Config } from "prettier";
 
 export const config: Config = {
   arrowParens: "always",
-  tabWidth: 4,
+  tabWidth: 2,
   printWidth: 80,
   singleQuote: true,
   jsxSingleQuote: true,
@@ -10,3 +10,4 @@ export const config: Config = {
 };
 
 export default config;
+
