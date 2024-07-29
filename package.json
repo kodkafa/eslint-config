@@ -10,6 +10,7 @@
     ".": "./dist/index.js",
     "./react": "./dist/react.js",
     "./next": "./dist/next.js",
+    "./remix": "./dist/remix.js",
     "./prettier-config": "./dist/prettier-config.js"
   },
   "main": "./dist/index.js",
